@@ -1,0 +1,7 @@
+:root{--body-bg: hsl(220, 10%, 90%);}
+
+@media (prefers-color-scheme: dark) {
+    :root{--body-bg: hsl(220, 10%, 15%);}
+}
+
+body{background: var(--body-bg);}
